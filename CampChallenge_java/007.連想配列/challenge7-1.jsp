@@ -20,7 +20,6 @@
             data1.put("hello","would");
             data1.put("soeda","33");
             data1.put("20","20");
-
         %>
     </body>
 </html>
