@@ -38,7 +38,7 @@ public class hikisu_modorichi2 extends HttpServlet {
         ArrayList<String> user2 = new ArrayList<>();
         user2.add("5678");
         user2.add("1985年4月18日");
-        user2.add("null");
+        user2.add(null);
         
         ArrayList<String> user3 = new ArrayList<>();
         user3.add("9012");
@@ -72,7 +72,7 @@ public class hikisu_modorichi2 extends HttpServlet {
             
             ArrayList<String> returnUser2 = prof("5678");
             for(int i=0;i<returnUser2.size();i++){
-                if(returnUser2.get(i).equals("null")){
+                if(returnUser2.get(i)==null){
                     continue;
                 }
                 out.println(returnUser2.get(i)+"<br>");
