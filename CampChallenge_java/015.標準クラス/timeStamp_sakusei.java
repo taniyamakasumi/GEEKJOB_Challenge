@@ -16,7 +16,7 @@ import java.util.Date;
 public class timeStamp_sakusei {
     public static void main(String[] args) {
      Calendar c = Calendar.getInstance();
-     c.set(2016, 1, 1, 0, 0, 0);
+     c.set(2016, 0, 1, 0, 0, 0);
      Date d=new Date();
      d=c.getTime();
      System.out.print(d.getTime());
